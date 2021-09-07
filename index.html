@@ -13,11 +13,15 @@
 
 	<body>
 		<header>
-			<div class="header-img"></div>
+			<img
+				src="images/juliana.jpg"
+				class="header-img"
+				alt="personaje de anime"
+			/>
 			<h1 class="header">Juliana Gomez</h1>
 			<h2 class="subtitle">Front End Developer</h2>
-			<nav class="navigation">
-				<ul>
+			<nav>
+				<ul class="navigation">
 					<li class="nav-item"><a href="#">Acerca de</a></li>
 					<li class="nav-item"><a href="#">Mis Proyectos</a></li>
 					<li class="nav-item"><a href="#">Contacto</a></li>
@@ -25,47 +29,104 @@
 			</nav>
 		</header>
 
-		<section class="intro">
-			Hola! Soy Juliana 👋 Soy Colombo-Canadiense, amo los gatos y tambien crear
-			cosas lindas para la web 😍 Después de estudiar comunicación social y
-			ciencia política en la universidad, trabajé varios años en mercadeo
-			digital hasta que aprendí a programar. Llevo un poco más de tres años
-			enfocándome en front end, específicamente en JavaScript y accesibilidad.
-			Sueño con una web donde todo el mundo pueda participar. Aquí puedes ver
-			algunos de mis proyectos recientes y también puedes contactarme por si
-			quieres hablar de tecnología, accesibilidad o gatos!
-			<section class="social-media">
-				<div>
-					<a href="https://twitter.com/gmzjuliana" target="_blank"
-						><img src="images/twitter.png" alt="twitter icon"
-					/></a>
-				</div>
-				<div>
-					<a href="https://github.com/gmzjuliana" target="_blank"
-						><img src="images/github-logo.png" alt="github icon"
-					/></a>
-				</div>
-				<div>
-					<a href="https://www.linkedin.com/in/gomezjuliana/" target="_blank"
-						><img src="images/linkedin.png" alt="linkedin icon"
-					/></a>
+		<main>
+			<section>
+				<h2 class="header">Acerca de</h2>
+				<p class="intro">
+					Hola! Soy Juliana 👋 Soy Colombo-Canadiense, amo los gatos y tambien
+					crear cosas lindas para la web 😍 Después de estudiar comunicación
+					social y ciencia política en la universidad, trabajé varios años en
+					mercadeo digital hasta que aprendí a programar. Llevo un poco más de
+					tres años enfocándome en front end, específicamente en JavaScript y
+					accesibilidad. Sueño con una web donde todo el mundo pueda participar.
+					Aquí puedes ver algunos de mis proyectos recientes y también puedes
+					contactarme por si quieres hablar de tecnología, accesibilidad o
+					gatos!
+				</p>
+				<ul class="social-media">
+					<li>
+						<a href="https://twitter.com/gmzjuliana" target="_blank"
+							><img src="images/twitter.png" alt="twitter icon"
+						/></a>
+					</li>
+					<li>
+						<a href="https://github.com/gmzjuliana" target="_blank"
+							><img src="images/github-logo.png" alt="github icon"
+						/></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/gomezjuliana/" target="_blank"
+							><img src="images/linkedin.png" alt="linkedin icon"
+						/></a>
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2 class="header">Mis Proyectos</h2>
+				<div class="carousel">
+					<div
+						class="arrow arrow-left"
+						role="button"
+						aria-label="backward button"
+					></div>
+					<article class="window">
+						<ul class="project-container">
+							<li>
+								<button>
+									<img
+										src="images/project1.png"
+										class="project project1"
+										alt="proyecto 1"
+									/>
+								</button>
+							</li>
+							<li>
+								<button>
+									<img
+										src="images/project2.png"
+										class="project project2"
+										alt="proyecto 2"
+									/>
+								</button>
+							</li>
+							<li>
+								<button>
+									<img
+										src="images/project3.png"
+										class="project project3"
+										alt="proyecto 3"
+									/>
+								</button>
+							</li>
+							<li aria-hidden="true">
+								<button>
+									<img
+										src="images/project4.png"
+										class="project project4"
+										alt="proyecto 4"
+									/>
+								</button>
+							</li>
+							<li aria-hidden="true">
+								<button>
+									<img
+										src="images/project5.png"
+										class="project project5"
+										alt="proyecto 5"
+									/>
+								</button>
+							</li>
+						</ul>
+					</article>
+					<div
+						class="arrow arrow-right"
+						role="button"
+						aria-label="forward button"
+					></div>
 				</div>
 			</section>
-		</section>
-
-		<section class="carousel">
-			<div class="arrow arrow-left"></div>
-			<div class="window">
-				<div class="project-container">
-					<article class="project project1"></article>
-					<article class="project project2"></article>
-					<article class="project project3"></article>
-					<article class="project project4"></article>
-					<article class="project project5"></article>
-				</div>
-			</div>
-			<div class="arrow arrow-right"></div>
-		</section>
+		</main>
 
 		<footer class="contact-section">
 			<h2 class="header">Contacto</h2>
