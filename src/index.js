@@ -1,3 +1,5 @@
+import './styles.css';
+
 import { clickLeft, clickRight } from './utils/slider.mjs';
 import validateForm from './utils/form.mjs';
 import { openModal, closeModal } from './utils/modal.mjs';
